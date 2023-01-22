@@ -28,11 +28,10 @@ def getRecommendMoviesAndPosters(movie_name):
     return recommend_movies, recommend_movies_poster
 
 
-
 st.title("Movie Recommender System")
 
 selected_movie_name = st.selectbox(
-    'How would you like to be contacted?',
+    'Search a movie you like...',
     movies["title"].values)
 
 
